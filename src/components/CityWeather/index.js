@@ -24,9 +24,10 @@ return(
   </Card>
   <br />
   </div>
-
+{/* <h1>{cityWeather.name}</h1> */}
 
     </div>
+  // <h1>hello</h1>
 );
 }
 export default CityWeather;

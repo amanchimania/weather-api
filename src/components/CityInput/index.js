@@ -3,7 +3,7 @@ import { Button, Container, Form } from "react-bootstrap";
 const CityInput = ({city,setCity,fetchCityWeather}) => {
     const [error,setError]=React.useState("");
     const handleInputChange=(event)=>{
-        // console.log(event.target);
+        console.log(event.target);
         setCity(event.target.value);
     };
     const handleClick=()=>{
