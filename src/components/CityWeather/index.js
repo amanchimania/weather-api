@@ -27,7 +27,7 @@ return(
   <div>
 <h1>City name is {cityWeather.name}</h1>
 <h1>Time zone is {cityWeather.timezone}</h1>
-<h3>Wind speed is {cityWeather.wind.deg}</h3>
+{/* <h3>Wind speed is {cityWeather.wind.deg}</h3> */}
 </div>
     </div>
   // <h1>hello</h1>
