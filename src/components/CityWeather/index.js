@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 const CityWeather=({cityWeather})=>{
   
 return(
@@ -8,7 +8,7 @@ return(
       <br/> */}
       {/* {cityWeather.main.feels_like} */}
       {/* {cityWeather.sys.sunrise} */}
-      <div style={{display:"flex", textAlign:"center", justifyContent:"center"}}>
+      {/* <div style={{display:"flex", textAlign:"center", justifyContent:"center"}}>
       <Card border="primary" style={{ width: '18rem' }}>
     <Card.Header>{cityWeather.name?<b>{cityWeather.name}</b>:<b className="text-danger">"error city not found"</b>}</Card.Header>
     <Card.Body>
@@ -23,9 +23,12 @@ return(
     </Card.Body>
   </Card>
   <br />
-  </div>
-{/* <h1>{cityWeather.name}</h1> */}
-
+  </div> */}
+  <div>
+<h1>City name is {cityWeather.name}</h1>
+<h1>Time zone is {cityWeather.timezone}</h1>
+<h3>Wind speed is {cityWeather.wind.deg}</h3>
+</div>
     </div>
   // <h1>hello</h1>
 );
