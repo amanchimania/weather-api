@@ -4,7 +4,6 @@ const CityWeather=({cityWeather})=>{
   
 return(
     <div>
-      {/* { cityWeather.name} */}
       <br/>
       {/* {cityWeather.main.feels_like} */}
       {/* {cityWeather.sys.sunrise} */}
