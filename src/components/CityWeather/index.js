@@ -4,11 +4,11 @@ const CityWeather=({cityWeather})=>{
   
 return(
     <div>
-      {/* { cityWeather.name}
-      <br/> */}
+      {/* { cityWeather.name} */}
+      <br/>
       {/* {cityWeather.main.feels_like} */}
       {/* {cityWeather.sys.sunrise} */}
-      {/* <div style={{display:"flex", textAlign:"center", justifyContent:"center"}}>
+       <div style={{display:"flex", textAlign:"center", justifyContent:"center"}}>
       <Card border="primary" style={{ width: '18rem' }}>
     <Card.Header>{cityWeather.name?<b>{cityWeather.name}</b>:<b className="text-danger">"error city not found"</b>}</Card.Header>
     <Card.Body>
@@ -23,13 +23,13 @@ return(
     </Card.Body>
   </Card>
   <br />
-  </div> */}
+  </div> 
   <div>
-<h1>City name is {cityWeather.name}</h1>
-<h1>Time zone is {cityWeather.timezone}</h1>
+{/* <h1>City name is {cityWeather.name}</h1> */}
+{/* <h1>Time zone is {cityWeather.timezone}</h1> */}
 {/* <h3>Wind speed is {cityWeather.wind.deg}</h3> */}
 </div>
-    </div>
+     </div>
   // <h1>hello</h1>
 );
 }
